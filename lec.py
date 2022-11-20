@@ -1,11 +1,20 @@
-print ('Hello World')
+
 
 
 value = None
-print(type(value))
+# print(type(value))
 a = 123
 b = 1.23
-print(type(a))
-print(type(b))
+# print(type(a)) # type выводит тип переменной
+# print(type(b))
 value = 12334
 print(type(value))
+s = 'hello "world"'
+print(s)
+print(a,'-', b,'-', s) #можно сразу добавлять несколько переменных в принт и добавлять символы
+print('{} - {} - {}'.format(a,b,s))# тоже с помощью форматирования
+print(f'{a} - {b} - {s}')# и так тоже можно
+
+f = True # или False
+print(f)
+
